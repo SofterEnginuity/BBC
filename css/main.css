@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    height: 6.25em;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.bbc {
+    padding-top: 15px;
+    font-size: 16;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+nav li {
+    list-style: none;
+    float: right;
+    padding-top: 5px;
+    padding-right: 55px;
+}
+
+nav li a {
+    float: right;
+    color: white;
+    text-decoration: none;
+
+}
+
+.mid {
+    margin-top: -75px;
+}
+
+section h2 {
+    float: none;
+}
+
+section article+article {
+    float: left;
+}
+
+main section {
+    float: right;
+    width: 20%;
+}
+
+main {
+ 
+    width: 100%;
+
+}
+
+main section img {
+    width: 6.25em;
+ 
+    margin-right: 6.25em;
+    margin-top: none;
+}
+
+.train {
+    float: left;
+    width: 100%;
+}
+
+.intro {
+    float: left;
+    width: 50%;
+    margin-right: none;
+}
+
+section.mid {
+    width: 50%;
+    padding-right: 35px;
+  
+
+}
+
+section.bottom {
+    clear: both;
+    width: 100%;
+
+}
+
+footer {
+    clear: both;
+}
+
+.news {
+    float: left;
+    height: 75px;
+
+}
+
+article {
+    width: 30%;
+    margin-right: 15px;
+
+}
+
+.mida1,
+.mida2,
+.mida3,
+.mida4 {
+    margin-right: 10px;
+    width: 35%;
+    height: 180px;
+    margin-left:60px;
+    color:white;
+
+
+}
+
+.mida2 {
+    background-image: url("images/scotland.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.mida1 {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.mida3 {
+    background-image: url("images/pest.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.mida4 {
+    background-image: url("images/winnie.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.bottom img {
+    width: 100%;
+    align-items: center;
+}
+
+@media (min-width:1024px) {
+    .mid {
+
+        width: 30%;
+        padding-right: 15px;
+        margin-top:6.25em;
+
+    }}
+
+
+
+    
+@media (min-width:767px) and (max-width:1023px) {
+    .mid {
+   
+    
+    display:inline-grid;
+    padding-left:55px;
+    
+    
+  
+
+    }
+    .mida1,
+    .mida2, 
+
+    .mida3,
+    .mida4{
+        width:55%;
+        background-size:cover;
+        margin-top:3px;
+        margin-right:5px;
+        margin-left:5px;
+        height:120px;
+    }
+}   
+
+
+
+
+@media (min-width:0px) and (max-width:766px) {
+    .mid {
+        width:100%;
+        padding-right: 15px;
+        margin-top:6.25em;
+
+    }
+    
+    section.mid{
+    width:100%;
+    }
+    main section{float:left;}
+
+    .mida1,
+    .mida2,
+    .mida3,
+    .mida4 {
+        width:24%;
+        margin-right:-8px;
+        margin-left:13px;height:119px
+       
+    }
+    main section img{
+
+            height:240px;  width:100%;
+
+}
+
+.intro {
+    width: 100%;
+    height:250px;
+
+
+}
+
+
+
+
+}
