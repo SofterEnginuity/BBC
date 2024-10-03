@@ -117,19 +117,16 @@ article {
 .mida2 {
     background-image: url("images/scotland.png");
     background-repeat: no-repeat;
-    background-size:cover;
 }
 
 .mida1 {
-    background-image: url("");
+    background-image: url("images/drill.png");
     background-repeat: no-repeat;
-    background-size:cover;
 }
 
 .mida3 {
     background-image: url("images/pest.png");
     background-repeat: no-repeat;
-    background-size:cover;
 }
 
 .mida4 {
