@@ -3,8 +3,8 @@ This page is a responsive version of a BBC News screenshot.
 
 **Link to project:** https://bbcmarkup.netlify.app/
 
-![alt tag](https://i.imgur.com/wMHlSrm.png)
 
+<img src="https://i.imgur.com/wMHlSrm.png" width=40% height=40%>
 ## How It's Made:
 
 **Tech used:** HTML, CSS
